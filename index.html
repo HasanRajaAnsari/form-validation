@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="body">
+        <div class="card">
+            <form action="" name="myForm" onsubmit="return getData()">
+                <div class="t-box">
+                    <h2>Form Validation</h2>
+                </div>
+                <div class="inp-box">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter Name" autocomplete="off">
+                </div>
+                <div class="inp-box">
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" placeholder="Enter Email" autocomplete="off">
+                </div>
+                <div class="inp-box">
+                    <label for="m-number">Mobile No</label><br>
+                    <input type="text" name="m-number" id="m-number" placeholder="Enter Mobile No" autocomplete="off">
+                </div>
+                <div class="inp-box">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="container2" id="confirm-box">
+        <div class="card2">
+              <h2>Form Notification</h2>
+              <h3 id="text-content"></h3>
+              <button id="confirm">Okay</button>
+        </div>
+  </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
